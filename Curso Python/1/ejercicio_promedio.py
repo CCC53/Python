@@ -1,0 +1,20 @@
+print("\tSaludos querido usuario")
+nombre1= input("Usuario1:\nEscriba su nombre:")
+nombre2= input("Usuario2:\nEscriba su nombre:")
+nombre3= input("Usuario3:\nEscriba su nombre:")
+edad1= input("Usuario1:\nEscriba su edad:")
+edad2= input("Usuario2:\nEscriba su edad:")
+edad3= input("Usuario3:\nEscriba su edad:")
+
+print("\nNombre \t\tEdad")
+print(nombre1,"\t\t",edad1)
+print(nombre2,"\t\t",edad2)
+print(nombre3,"\t\t",edad3)
+
+edad1a= int(edad1)
+edad2a= int(edad2)
+edad3a= int(edad3)
+suma= (edad1a+ edad2a+ edad3a)
+prom= (suma/3)
+
+print("El promedio de las edades es: ",prom)

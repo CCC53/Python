@@ -1,0 +1,2 @@
+Estoy aprendiendo Python, es un lenguaje chido
+Despues inicio Django
